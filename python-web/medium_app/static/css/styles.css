@@ -1,0 +1,56 @@
+body {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+
+.jumbotronText {
+    background-color: #00000044;
+    border-radius: 5px;
+    padding-top: 50px;
+    color: white;
+}
+
+#numInSpace {
+    font-size: 10em;
+    margin-top: -50px;
+}
+
+.my-4 {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+h3 {
+    text-align: center;
+    padding: 50px;
+}
+
+.row {
+    color: #343a40;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.col-sm-4 {
+    padding: 5px;
+}
+
+.card {
+    background: whitesmoke;
+}
+
+.h1About {
+    padding: 50px;
+}
