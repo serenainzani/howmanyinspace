@@ -1,0 +1,24 @@
+{% include "header.html" %}
+<div class="jumbotron" style="background-image: url({{ nasaPicOfDayURL }});">
+    <div class="jumbotronText">
+        <h1 class="display-4">Who is in Space?</h1>
+        <p class="lead">How many people are in space right now?</p>
+        <hr class="my-4">
+        <p id="numInSpace"> {{ numInSpace }}</p>
+    </div>
+  </div>
+<h3>Who are the people in Space?</h3>
+<div class="row">
+    {% for i in spaceList %}
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ i }}</h5>
+          <p class="card-text">{{ craftList[loop.index0] }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% include "footer.html" %}
